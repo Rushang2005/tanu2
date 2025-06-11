@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Tanu 🎉</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="assets/song.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="heart-container">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <div class="container">
+    <h1>🎂 Happy 18th Birthday Tanu 💖</h1>
+
+    <div class="slideshow">
+      <img src="assets/photo1.jpg" class="slide" style="display:block;">
+      <img src="assets/photo2.jpg" class="slide">
+      <img src="assets/photo3.png" class="slide">
+    </div>
+
+    <p class="message">
+      Dear Tanu,<br><br>
+      Today, you’re not just turning 18—you’re stepping into a beautiful new chapter of your life...
+      (Same romantic message as before)
+    </p>
+
+    <div class="buttons">
+      <button onclick="reveal('cute')">🎁 Cute Promise</button>
+      <button onclick="reveal('sexy')">🔥 Sexy Coupon</button>
+    </div>
+
+    <div id="gift" class="hidden"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
